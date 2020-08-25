@@ -1,0 +1,70 @@
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    mobile webkit -moz-tap-highlight-color: rgba(255, 255, 255, 0);
+    -ms-tap-highlight-color: rgba(255, 255, 255, 0);
+    tap-highlight-color: rgba(255, 255, 255, 0);
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.main {
+    width: 300px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+}
+
+#sec1-lady {
+    opacity: 0;
+}
+
+#sec1-text {
+    position: absolute;
+    left: -50%;
+}
+
+#sec2-text1{
+    position: absolute;
+    left: -60%;
+}
+
+#sec2-text2{
+    opacity: 0;
+}
+
+#sec2-button{
+    opacity: 0;
+}
+
+#sec2-logo{
+    position: absolute;
+    left: 50%;
+    visibility: visible;
+}
+
+#sec2-replay{
+    position: absolute;
+    left: 280px;
+    top: 10px;
+    visibility: hidden;
+}
+
+/*ALL ELEMENT STYLING AND TRANSITION SHOULD BE INPUTTED HERE*/

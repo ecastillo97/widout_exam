@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>300x250</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+    
+
+<body>
+    <div id="main" class="main">
+        <!--        create a div for each element needed.-->
+
+        <!-- section 1 elements-->
+        <div id="inf-bg">
+            <img src="images/inf-bg.png">
+        </div>
+
+        <div id="sec1-lady">
+            <img src="images/sec1-lady.png" onload="fade_in(); setTimeout(fade_out, 2200);">
+        </div>
+
+        <div id="sec1-text">
+            <img src="images/sec1-text.png" onload="setTimeout(slide_right, 500); setTimeout(slide_left, 2000)">
+            <!-- <script>slide_right()</script> -->
+        </div>
+        
+
+        <div id="sec2-text1">
+            <img src="images/sec2-text1.png" onload="setTimeout(t2_slide_right, 2400)">
+        </div>
+
+        <div id="sec2-text2">
+            <img src="images/sec2-text2.png" onload="setTimeout(t3_fade_in, 3300)">
+        </div>
+
+        <div id="sec2-button">
+            <img src="images/sec2-button.png" onload="setTimeout(t4_fade_in, 3800)">
+        </div>
+
+        <div id="sec2-logo">
+            <img src="images/sec2-logo.png" onload="setTimeout(logo_slide_left, 4600)">
+        </div>
+
+        <div id="sec2-replay">
+            <input type="image" src="images/sec2-replay.png" onclick="reload()" onload="setTimeout(load_replay, 4700)">
+        </div>
+    
+    
+    </div>
+</body>
+
+</html>
